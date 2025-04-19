@@ -10,7 +10,7 @@ body{
 
 #calculator{
     font-family: Arial, sans-serif;
-    background-color: hsl(236, 62%, 9.5%);
+    background-color: hsl(236, 62%, 15%);
     border-radius: 50px;
     max-width: 500px;
     overflow: hidden;
@@ -24,8 +24,9 @@ body{
     font-size: 5rem;
     text-align: right;
     border: none;
-    background-color: hsl(236, 62%, 10%);
+    background-color: hsl(236, 62%, 15%);
     color: white;
+    box-shadow: inset 0px 0px 15px 2px hsl(236, 62%, 4%);
 }
 
 
@@ -42,7 +43,7 @@ button{
     height: 80px;
     border-radius: 50px;
     border: none;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     background-color: hsl(34, 71%, 45%);
     color: white;
